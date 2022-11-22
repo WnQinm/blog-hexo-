@@ -102,8 +102,10 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-
+  type: git
+  repo:
+    github: https://github.com/WnQinm/WnQinm.github.io.git
+  branch: master
 # hexo-generator-search
 search:
   path: search.xml
@@ -118,9 +120,3 @@ markdown:
       name: '@neilsustc/markdown-it-katex'
       options:
         strict: false
-
-deploy:
-  type: git
-  repo:
-    github: https://github.com/WnQinm/WnQinm.github.io.git
-  branch: master
