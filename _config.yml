@@ -118,3 +118,9 @@ markdown:
       name: '@neilsustc/markdown-it-katex'
       options:
         strict: false
+
+deploy:
+  type: git
+  repo:
+    github: https://github.com/WnQinm/WnQinm.github.io.git
+  branch: master
